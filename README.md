@@ -20,7 +20,7 @@ sample code:
   ind.save()
 
 How it works:
-  works with 3 main functions: 
+  works with 3 callable functions: 
 
   check() accepts one argument - url/md5hash/any-string checks if the string exists in our index file
       check("https://www.drupal.org/docs/develop") # returns true if url does NOT exist
