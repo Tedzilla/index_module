@@ -23,7 +23,7 @@ How it works:
   works with 3 main functions: 
 
   check() accepts one argument - url/md5hash/any-string checks if the string exists in our index file
-      check("https://www.drupal.org/docs/develop") # returns true == url does NOT exist
+      check("https://www.drupal.org/docs/develop") # returns true if url does NOT exist
 
   write() Write all the urls that passed the check functon with True,
       creates a dictionary with this urls and time of saving:
